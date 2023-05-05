@@ -27,6 +27,30 @@ num1 = 3.5
 num2 = '4'
 
 print("\nQuestion4")
+# print(num1 + num2)
+
+# Question 5
+## Both num1 and num2, they are of different type 
+num1 = int(3.5)
+num2 = 4
+
+print("\nQuestion5")
+print(num1 + num2)
+
+# Question 6
+## Both num1 and num2, they are of different type 
+num1 = 3
+num2 = float(4)
+
+print("\nQuestion6")
+print(num1 + num2)
+
+# Question 7
+## Both num1 and num2, they are of different type 
+num1 = int(3.5)
+num2 = float(4)
+
+print("\nQuestion7")
 print(num1 + num2)
 
 # String Example
