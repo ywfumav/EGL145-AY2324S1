@@ -6,7 +6,7 @@ totalAmountToPay = float()
 
 # Input 
 nameOfTheFruit = input("Enter the name of the fruit bought:")
-theNumberOfFruitsBought = float(input(f"Enter the number of {nameOfTheFruit}:"))
+theNumberOfFruitsBought = int(input(f"Enter the number of {nameOfTheFruit}:"))
 priceOfOneFruit = float(input(f"Enter the price of a single {nameOfTheFruit}:"))
 
 # Process
