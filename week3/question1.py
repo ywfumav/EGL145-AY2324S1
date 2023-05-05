@@ -47,8 +47,8 @@ print(num1 + num2)
 
 # Question 7
 ## Both num1 and num2, they are of different type 
-num1 = int(3.5)
-num2 = float(4)
+num1 = int('3.5')
+num2 = float('4')
 
 print("\nQuestion7")
 print(num1 + num2)
