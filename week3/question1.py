@@ -6,6 +6,7 @@ print("Question1")
 print(num1 * num2)
 
 # Question 2
+## Both num1 and num2, they are of same type 
 num1 = '3.5'
 num2 = "4"
 
@@ -13,10 +14,19 @@ print("\nQuestion2")
 print(num1 + num2)
 
 # Question 3
+## Both num1 and num2, they are of different type 
 num1 = '3.5'
 num2 = 4
 
 print("\nQuestion3")
+# print(num1 + num2)
+
+# Question 4
+## Both num1 and num2, they are of different type 
+num1 = 3.5
+num2 = '4'
+
+print("\nQuestion4")
 print(num1 + num2)
 
 # String Example
