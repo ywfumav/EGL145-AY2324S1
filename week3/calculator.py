@@ -13,4 +13,6 @@ priceOfOneFruit = float(input(f"Enter the price of a single {nameOfTheFruit}:"))
 totalAmountToPay = theNumberOfFruitsBought * priceOfOneFruit
 
 # Output 
+if theNumberOfFruitsBought > 1:
+    nameOfTheFruit = nameOfTheFruit + 's'
 print(f"The amount to pay for the {nameOfTheFruit} is ${totalAmountToPay}")
