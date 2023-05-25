@@ -39,3 +39,11 @@ price = calculate(meal, burger, fries, drinks)
 # Output
 print(f"There are {meal} meal, {burger} burger, {fries} fries and {drinks} drinks from the selection")
 print(f"Total sum is ${price}")
+
+friend = str(input("Are you a friend (Yes / No)?: "))
+if friend == 'Yes':
+    discount = int(input("Enter Discount: "))
+    newamt = price - (price * (discount/100))
+    print(f"Discount sum is ${newamt}")
+else: 
+    print("Goodbye!")

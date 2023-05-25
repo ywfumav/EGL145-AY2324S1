@@ -77,3 +77,18 @@ Please enter the number of drinks: 1
 There are 1 meal, 2 burger, 1 fries and 0 drinks from the selection
 Total sum is $31
 ```
+
+## Section 5
+Staff can give special discount to friends who visit them during work. Write a python program to faciliate the console output below.
+
+### Console Output
+```
+Please enter the number of burger: 10
+Please enter the number of fries: 4
+Please enter the number of drinks: 11
+There are 4 meal, 6 burger, 0 fries and 7 drinks from the selection
+Total sum is $109
+Are you a friend (Yes / No)?: Yes
+Enter Discount: 20
+Discount sum is $87.2
+```
